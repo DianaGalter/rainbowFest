@@ -1,0 +1,359 @@
+ol, ul {
+    list-style:none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+
+table,
+table td {
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+}
+
+img {
+    vertical-align: top;
+}
+
+embed {
+    vertical-align: top;
+}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+    display:block;
+}
+mark, rp, rt, ruby, summary, time {
+    display:inline;
+}
+input,
+textarea {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+iframe {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0px;
+}
+
+/* -------------------------------------------- */
+/* ------------------Style---------------------- */
+/* -------------------------------------------- */
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #292929;
+    font: 14px/25px Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------------------*/
+a {
+    color: #006699;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.button, 
+input.button {
+    cursor: pointer;
+    color: #808080;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background: #E4E4E4;
+    border: 1px solid #DFDFDF;
+}
+
+a.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+}
+
+input.button {
+    margin: 0;
+    border: 0;
+    height: 24px;
+    padding: 0px 12px 0px 12px;
+}
+
+a.button:hover,
+input.button:hover {
+    background: #006699;
+    color: #ffffff;
+}
+
+/*-------------header */
+header {
+    height: 145px;
+    width: 100%;
+    background-color: #006699;
+    display: flex;
+}
+
+header #logo {
+}
+
+header #search-box {
+    /* position: relative; */
+    width: 80%;
+    margin:  0 auto;
+    margin-top: 30px;
+    height:  30px;
+    display:  flex;
+    flex-direction:  row;
+    justify-content:  flex-end;
+}
+header #search-form {
+    height: 30px;
+    border: 1px solid #4ba4d3;
+    width: 30%;
+    display:  flex;
+    flex-direction:  row;
+    justify-content:  space-between;
+    border-radius: 12px;
+    background-color:  white;
+    overflow:  hidden;
+}
+header #search-text {
+    font-size: 14px;
+    color: #4ba4d3;
+}
+#search-text::placeholder {
+    color: #4ba4d3;
+}
+header #search-box input[type="text"] {
+    padding: 5px 0 5px 1em;
+}
+header #search-button {
+    height: 31px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+    background-color: #4ba4d3;
+    cursor: pointer;
+    border-bottom-left-radius: 0;
+    border: none;
+}
+
+/*------------menu */
+nav {
+    width: 80%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+nav div {
+    border: 1px solid #4ba4d3;
+    padding: 0 5px;
+    height: 100%;
+    display:  flex;
+    align-items:  center;
+    width: 19%;
+    justify-content:  center;
+}
+nav div:hover {
+    background-color: #9ecfe6;
+}
+nav div a {
+    font-size: 19px;
+    line-height:14px;
+    color: black;
+    display: block;
+    font-weight:bold;
+}
+
+/*-------------content */
+#content {}
+
+.block {
+    padding: 10px 0px;
+    background: #ffffff;
+}
+
+.main-content {}
+
+.main-content article {
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative
+}
+
+.main-content .heading h2 {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.main-content .heading .info {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.main-content .content {}
+
+.main-content .content img {
+    float: left;
+    margin: 3px 30px 0px 0;
+    border: #BDBDBD 5px solid;
+}
+
+.main-content .footer {}
+
+.main-content .footer .more {
+    float: right;
+}
+
+.main-content .footer .more a {
+    text-decoration: none;
+}
+
+.sidebar {
+    border-right: 1px solid #4ba4d3;
+}
+
+.sidebar section {
+    height: 5%;
+}
+
+.sidebar .heading {
+    color: #006699;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 10px 10px 10px 50px;
+    height: 100%;
+    box-sizing:  border-box;
+    display:  flex;
+    flex-direction:  column;
+    justify-content: center;
+
+}
+.sidebar .heading:hover {
+    cursor: pointer;
+    background-color: #4ba4d3;
+    border-left: 10px solid #006699;
+    padding-left: 40px;
+}
+
+.sidebar .content {
+    padding: 15px;
+}
+
+.sidebar .content img {
+    float: left;
+    margin: 5px;
+    border: #BDBDBD 5px solid;
+}
+
+.featured {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+}
+
+ul.list li {
+    padding: 0px 0 5px 12px;
+    line-height: 25px;
+    background: url(../images/marker-1.gif) 0 11px no-repeat;
+}
+
+ul.list li a {
+    font-size: 14px;
+    color: #292929;
+    line-height: 25px;
+}
+
+ul.list li a:hover {
+    color: #006699;
+    text-decoration: none;
+}
+
+/*------------footer */
+footer {
+    padding: 20px 10px;
+    background: #3F3F3F;
+    margin-top: 15px;
+}
+
+footer .heading {
+    color: #ffffff;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+footer .content {
+    color: #ffffff;
+}
+
+footer .content img {
+    float: left;
+    margin: 5px;
+    border: #ffffff 5px solid;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+}
+
+footer ul li {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+footer ul li a:hover {
+    color: #006699;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*-------------copyright*/
+#copyright {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: url(../images/bg-footer.png);
+    padding: 8px 0px;
+    color: #ffffff;
+}
