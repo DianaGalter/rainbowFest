@@ -1,0 +1,67 @@
+.download-rules {
+    color: #37c7eb;;
+}
+
+.download-rules img {
+    width: 15px;
+}
+
+.categories {
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #274B79;
+    font-size: 18px;
+}
+.categories span {
+    color: #fff;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0 40px 0;
+    font-weight: 400;
+    padding: 5px;
+    background: #ff9805;
+    color: #fff;
+    width: 267px;
+}
+
+.categories--red {
+    background: #E61964;
+ }
+ 
+ .categories--corall {
+    background: #EC5339;
+ }
+ 
+ .categories--orange {
+    background: #F3903A;
+ }
+ .categories--salad {
+     background: #AED05C;
+ }
+ 
+ .categories--green {
+    background: #46BA79;
+ }
+ 
+ .categories--blue {
+    background: #2EAECD;
+ }
+ 
+ .categories--indigo {
+    background: #3257A4;
+ }
+ 
+ .categories--violet {
+    background: #723C95;
+ }
+
+ .categories--purple {
+    background: #CA128C;
+ }
