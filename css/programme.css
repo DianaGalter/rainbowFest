@@ -1,23 +1,40 @@
-.content__block--programme * {color: #274B79;}
+.content__block--programme li {
+   color: #274B79;
+}
+
+.header__hr {
+   width: 100%;
+   justify-content: center;
+   display: flex;
+   /* border-top: 1px solid #E0E6ED; */
+   /* border-bottom: 1px solid #E0E6ED; */
+}
 
 h1 {
    font-size: 20px;
    text-transform: uppercase;
-   margin: 20px 0;
+   margin: 20px 0 40px 0;
    font-weight: 400;
-   padding-bottom: 20px;
+   padding: 5px;
+   width: 440px;
+   background: #ff9805;
+   color: #fff;
 }
 
 .programme-date {
    font-size: 18px;
-   /* font-weight: bold; */
    margin-bottom: 20px;
    text-transform: uppercase;
+   color: #fff;
+   width: 120px;
+   padding: 5px;
 }
-.programme-date span{
+
+.programme-date span {
    font-size: 18px;
    font-weight: 400;
    text-transform: lowercase;
+   color: #fff;
 }
 
 .programme {
@@ -35,4 +52,16 @@ h1 {
 .programme li b {
    font-size: 16px;
    line-height: 23px;
+}
+
+.programme-date--red {
+   background: #e8176a;
+}
+
+.programme-date--green {
+   background: #96d446;
+}
+
+.programme-date--blue {
+   background: #37c7eb;
 }
