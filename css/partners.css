@@ -1,16 +1,16 @@
 .categories {
-    line-height: 24px;
+    line-height: 35px;
     margin-bottom: 20px;
     color: #274B79;
     font-size: 18px;
 }
 .categories span {
     color: #fff;
-    width: 25px;
     display: inline-block;
     text-align: center;
     margin-right: 5px;
     border-radius: 5px;
+    padding: 0 5px;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h2 {
     padding: 5px;
     background: #ff9805;
     color: #fff;
-    width: 162px;
+    width: auto;
 }
 
 .categories--red {
