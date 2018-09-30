@@ -1,0 +1,126 @@
+.categories {
+    line-height: 35px;
+    margin-bottom: 20px;
+    color: #274B79;
+    font-size: 18px;
+}
+
+.categories span {
+    text-align: center;
+    margin-right: 5px;
+    padding: 5px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    color: #274B79;
+    font-size: 18px;
+    white-space: nowrap;
+    transition: all .25s ease-in;
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+.categories span:hover {
+    color: #fff;
+    cursor: default;
+
+    background-position: 0 0;
+}
+
+h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0 40px 0;
+    font-weight: 400;
+    padding: 5px;
+    background: #ff9805;
+    color: #fff;
+    width: 267px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+    font-weight: 400;
+    padding: 5px;
+    background: #ff9805;
+    color: #fff;
+    width: 494px;
+}
+
+.categories--red {
+    border-left: #E61964;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #E61964 50%,
+        #E61964);
+}
+
+.categories--corall {
+    border-left: #EC5339;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #EC5339 50%,
+        #EC5339);
+}
+
+.categories--green {
+    border-left: #46BA79;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #46BA79 50%,
+        #46BA79);
+}
+
+.categories--blue {
+    border-left: #2EAECD;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #2EAECD 50%,
+        #2EAECD);
+}
+
+.categories--purple {
+    border-left: #CA128C;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #CA128C 50%,
+        #CA128C);
+}
+
+.label--style {
+    line-height: 35px;
+    margin: 10px 0;
+    color: #274B79;
+    font-size: 18px;
+    display: block;
+}
+
+.input--style {
+    color: #274B79;
+    padding: 3px;
+    width: 300px;
+    border-radius: 5px;
+}
+.input--style::placeholder {
+    color: #6986aa;
+}
+.input__message--style {
+    height: 100px;
+    margin-bottom: 20px;
+}
+.input__button--style {
+    width: 150px;
+}
+
+.form--style {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+}

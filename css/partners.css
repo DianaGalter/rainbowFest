@@ -3,13 +3,14 @@
     margin-bottom: 20px;
     color: #274B79;
     font-size: 18px;
+    padding-left: 10px;
+    border-left-width: 5px;
+    border-left-style: solid;
 }
 .categories span {
     color: #fff;
     display: inline-block;
     text-align: center;
-    margin-right: 5px;
-    border-radius: 5px;
     padding: 0 5px;
 }
 
@@ -21,7 +22,7 @@ h1 {
     padding: 5px;
     background: #ff9805;
     color: #fff;
-    width: 267px;
+    width: 252px;
 }
 
 h2 {
@@ -32,42 +33,27 @@ h2 {
     padding: 5px;
     background: #ff9805;
     color: #fff;
-    width: auto;
+    width: 162px;
 }
 
 .categories--red {
-    background: #E61964;
+    border-left-color: #E61964;
  }
  
  .categories--corall {
-    background: #EC5339;
- }
- 
- .categories--orange {
-    background: #F3903A;
- }
- .categories--salad {
-     background: #AED05C;
+    border-left-color: #EC5339;
  }
  
  .categories--green {
-    background: #46BA79;
+    border-left-color: #46BA79;
  }
  
  .categories--blue {
-    background: #2EAECD;
- }
- 
- .categories--indigo {
-    background: #3257A4;
- }
- 
- .categories--violet {
-    background: #723C95;
+    border-left-color: #2EAECD;
  }
 
  .categories--purple {
-    background: #CA128C;
+    border-left-color: #CA128C;
  }
 
  .images-partners {
