@@ -11,7 +11,6 @@
     padding: 5px;
     line-height: 35px;
     margin-bottom: 20px;
-    color: #274B79;
     font-size: 18px;
     white-space: nowrap;
     transition: all .25s ease-in;
@@ -107,6 +106,7 @@ h2 {
     padding: 3px;
     width: 300px;
     border-radius: 5px;
+    font-size: 17px;
 }
 .input--style::placeholder {
     color: #6986aa;
