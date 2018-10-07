@@ -111,7 +111,8 @@ body {
 
 /* == Content == */
 
-.content {}
+.content {
+}
 .content__block {
     display: flex;
     flex-direction: column;
