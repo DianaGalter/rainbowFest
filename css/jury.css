@@ -1,37 +1,38 @@
-.first_row ,
-.second_row {
+.jury {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.jury {
+.jury_person {
     margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(100% / 3);
+    width: 350px;
+    color: #274B79;
 }
-.jury > img {
+.jury_person > img {
     width: 220px;
     height: 220px;
     border-radius: 50%;
 }
-.jury > h1 {
+.jury_person > h1 {
     font-size: 20px;
-    text-align: center;
     margin: 10px 0;
     height: 46px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    text-align: center;
 }
 .jury_city {
     font-size: 16px;
-    text-align: center;
-    margin: 10px 0;
+    line-height: 24px;
 }
 .jury_about {
-    text-align: center;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 24px;
     margin: 10px 0;
 }

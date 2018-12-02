@@ -31,6 +31,7 @@ body {
 .logo {
    height: 140px;
    width: 65%;
+   min-width: 800px;
    font-size: 30px;
    padding: 20px;
    box-sizing: border-box;
@@ -43,6 +44,7 @@ body {
    flex-direction: row;
    height: 60px;
    width: 65%;
+   min-width: 800px;
    justify-content: stretch;
    box-sizing: border-box;
    border-top: 1px solid #E0E6ED;
@@ -117,6 +119,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 65%;
+    min-width: 800px;
     box-sizing: border-box;
     padding: 20px;
     margin: 0 auto;
@@ -163,4 +166,13 @@ body {
 
 .icon--inst {
    background: url(../images/inst_icon.png);
+}
+
+
+.header__hr {
+   width: 100%;
+   justify-content: center;
+   display: flex;
+   /* border-top: 1px solid #E0E6ED; */
+   /* border-bottom: 1px solid #E0E6ED; */
 }
