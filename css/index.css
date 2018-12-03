@@ -3,17 +3,101 @@
     color: #274B79;
     font-size: 16px;
 }
+
 .main_title {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 46px;
     width: 90%;
     margin-bottom: 20px;
 }
-.main_date {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
+
+.main_date,
 .main_place {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.main_caption,
+.main_new,
+.main_new--item {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.main_new--item {
+    margin: 10px 20px;
+}
+
+.main_new--item span {
+    text-align: center;
+    padding: 5px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    white-space: nowrap;
+    transition: all .25s ease-in;
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+.main_new--item span:hover {
+    color: #fff;
+    cursor: default;
+
+    background-position: 0 0;
+}
+
+.categories--red {
+    border-left: #E61964;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #E61964 50%,
+        #E61964);
+}
+
+.categories--corall {
+    border-left: #EC5339;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #EC5339 50%,
+        #EC5339);
+}
+
+.categories--green {
+    border-left: #46BA79;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #46BA79 50%,
+        #46BA79);
+}
+
+.categories--blue {
+    border-left: #2EAECD;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #2EAECD 50%,
+        #2EAECD);
+}
+
+.categories--purple {
+    border-left: #CA128C;
+    background-image: linear-gradient(to left,
+        transparent,
+        transparent 50%,
+        #CA128C 50%,
+        #CA128C);
+}
+.main_img {width: 100%;display: flex;}
+.main_img--align {
+    width: 50%;
+    height: 100%;
 }

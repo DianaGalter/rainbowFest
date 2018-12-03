@@ -14,7 +14,7 @@ body {
    flex-direction: column;
    min-width: 1024px;
    background: #fcfdff;
-   background: #fafafa;
+   background: rgb(250, 250, 250);
 }
 
 /* == Header == */
@@ -28,15 +28,24 @@ body {
    flex-shrink: 0;
 }
 
-.logo {
+.title {
    height: 140px;
    width: 65%;
    min-width: 800px;
-   font-size: 30px;
+   font-size: 32px;
+   line-height: 40px;
+   font-weight: 600;
    padding: 20px;
    box-sizing: border-box;
    background-color: rgba(255,255,255,0.8);
-   color: #274B79;
+   color: rgb(39, 75, 121);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.logo {
+   height: 120px;
 }
 
 .menu {
@@ -130,7 +139,7 @@ body {
 .footer {
    width: 100%;
    display: flex;
-   border-top: 1px solid #E0E6ED;
+   border-top: 1px solid rgb(224, 230, 237);
    flex-shrink: 0;
    justify-content: flex-end;
    padding: 20px;
@@ -148,6 +157,7 @@ body {
 .icon img{
    width: 50px;
    height: 50px;
+   padding: 3px;
    border-radius: 5px;
    cursor: pointer;
 }
